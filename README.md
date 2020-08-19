@@ -22,8 +22,7 @@ npm install -D parcel-bundler
 
 ```json
 "scripts": {
-  "start": "parcel index.html",
-  ...
+  "start": "parcel index.html"
 },
 ```
 
@@ -35,7 +34,6 @@ The `index.html` file is called the "entry point" - this is where Parcel starts 
 
 ```json
 "scripts": {
-  ...
   "build": "parcel build index.html"
 },
 ```
